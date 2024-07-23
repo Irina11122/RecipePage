@@ -1,0 +1,113 @@
+@import url(fonts.css);
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.card {
+  width: 40% !important;
+  border: none;
+  border-radius: 14px;
+}
+img {
+  width: 100%;
+  border-radius: 27px;
+}
+
+.preparation__time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 30px 30px;
+  text-align: start;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.preparation__time h4 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 15px;
+}
+
+.preparation-time__list strong {
+  color: hsl(30, 10%, 34%);
+  margin-left: 30px;
+}
+
+li.mb-2::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingridients span {
+  margin-left: 15px;
+}
+
+.instructions span {
+  color: hsl(30, 10%, 34%);
+}
+
+.card__title {
+  margin: 20px 0;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card__paragraph {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ingridients h4 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingridients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions h4 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions strong {
+  color: hsl(30, 10%, 34%);
+}
+
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.instructions span {
+  margin-left: 15px;
+}
+
+.nutritions h4 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+}
+
+table th {
+  color: hsl(14, 45%, 36%);
+}
+
+@media only screen and (max-width: 851px) {
+  div.card {
+    width: 100% !important;
+  }
+
+  img {
+    border-radius: 0;
+  }
+}
